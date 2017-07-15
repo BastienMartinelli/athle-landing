@@ -1,0 +1,32 @@
+body {
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.smartphone-img {
+  margin-top: 50px;
+}
+
+.hero-body {
+  background-image: url(/static/background2.jpeg);
+  background-repeat: no-repeat;
+}
+
+.google-badge {
+  max-width: 20%;
+}
+
+
+@media screen and (min-width: 640px) {
+
+  .smartphone-img {
+    max-width: 30%;
+  }
+
+  .hero-body {
+    background-size: contain;
+  }
+}
