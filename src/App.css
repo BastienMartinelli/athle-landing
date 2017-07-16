@@ -15,10 +15,11 @@ body {
   background-repeat: no-repeat;
 }
 
-.google-badge {
-  max-width: 20%;
+.user-form {
+  margin-top: 50px;
+  width: 80%;
+  margin: auto;
 }
-
 
 @media screen and (min-width: 640px) {
 
@@ -28,5 +29,14 @@ body {
 
   .hero-body {
     background-size: contain;
+  }
+
+  .google-badge {
+    max-width: 20%;
+  }
+
+  .user-form {
+    width: 50%;
+    margin: auto;
   }
 }
